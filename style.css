@@ -1,0 +1,80 @@
+/* Basic reset and styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+  }
+  
+  /* Overlay styling */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-btn {
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: #5a5af5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup-btn:hover {
+    background-color: #4a4ae5;
+  }
+  
+  .container {
+    display: none; /* Hidden until user chooses the type */
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .excuse {
+    margin: 20px;
+    font-size: 1.5em;
+  }
+  
+  .excuse-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #e07b39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .excuse-btn:hover {
+    background-color: #c0662b;
+  }
+  
